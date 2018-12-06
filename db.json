@@ -1,0 +1,32 @@
+{
+	"uuid": "e4833c9d-1c5c-11e8-8fb2-028ea5d789d4",
+	"question": "My trip started but cycle failed to unlock",
+	"elements": [{
+		"uuid": "82d8d1bc-430c-11e8-b9c9-028ea5d789d4",
+		"status": 1,
+		"text": "We are sorry for the inconvenience caused. The cycle may have failed to unlock due to some locking issue or technical issue.\r\n\r\n**Claim your refund**",
+		"questionUUID": "e4833c9d-1c5c-11e8-8fb2-028ea5d789d4",
+		"endPoint": null,
+		"type": "TEXT",
+		"priority": 1.0,
+		"keys": null
+	}, {
+		"uuid": "972b68ce-430c-11e8-b9c9-028ea5d789d4",
+		"status": 1,
+		"text": "Cancel",
+		"questionUUID": "e4833c9d-1c5c-11e8-8fb2-028ea5d789d4",
+		"endPoint": null,
+		"type": "BUTTON",
+		"priority": 2.2,
+		"keys": null
+	}, {
+		"uuid": "b1116430-430c-11e8-b9c9-028ea5d789d4",
+		"status": 1,
+		"text": "Claim",
+		"questionUUID": "e4833c9d-1c5c-11e8-8fb2-028ea5d789d4",
+		"endPoint": "https://api.pedl.in/pedl/secure/help/refund/lock-failed",
+		"type": "BUTTON",
+		"priority": 2.1,
+		"keys": null
+	}]
+}
